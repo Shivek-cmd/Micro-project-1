@@ -1,77 +1,76 @@
 /* Global styles */
 .container {
-   
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Box 1 styles */
 .box-1 {
-    background-color: #FFCD9E;
-    display: flex;
+  background-color: #ffcd9e;
+  display: flex;
 }
 
 .box-content {
-    width: 50%;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-
 .box-image {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  mix-blend-mode: multiply;
 }
 
 .box-content input[type="text"] {
-    border: 2px solid black;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-right: 10px; /* Increased margin for more space */
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px; /* Increased margin for more space */
 }
 
 .box-content input[type="text"]:hover {
-    border-color: blue;
+  border-color: blue;
 }
 
 .box-content button {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
 }
 
 .box-content button:hover {
-    border-color: blue;
+  border-color: blue;
 }
 
 .nospam {
-    padding: 1px 15px; /* Increased padding for better readability */
-    color: white;
+  padding: 1px 15px; /* Increased padding for better readability */
+  color: white;
 }
 
 .box-image img {
-    mix-blend-mode: multiply;
-    width: 80%;
-    height: 80%;
+  mix-blend-mode: multiply;
+  width: 80%;
+  height: 80%;
 }
 
 /* Box 2 styles */
 .box-2 {
-    background-color: #282828;
-    display: flex;
-    color: white;
-    justify-content: space-around;
-    font-size: 0.9rem;
+  background-color: #282828;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  font-size: 0.9rem;
 }
 
 .box-2 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .box-2 ul li {
-    padding: 5px;
+  padding: 5px;
 }
