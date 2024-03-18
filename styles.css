@@ -18,10 +18,7 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-@media only screen and (max-width: 768px) {
-  .box-1 {
-    flex-direction: column;
-  }
+
 
 .box-image {
     display: flex;
